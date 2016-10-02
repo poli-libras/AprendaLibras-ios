@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uKJ-ed-PuG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="simbolo_negativo" translatesAutoresizingMaskIntoConstraints="NO" id="CQU-mH-4HK">
+                                        <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="gO9-oF-zoc"/>
+                                            <constraint firstAttribute="height" constant="200" id="hiW-8t-lqM"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90980392156862744" green="0.31372549019607843" blue="0.10980392156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="CQU-mH-4HK" firstAttribute="centerX" secondItem="uKJ-ed-PuG" secondAttribute="centerX" id="ciC-PA-CUQ"/>
+                                    <constraint firstItem="CQU-mH-4HK" firstAttribute="centerY" secondItem="uKJ-ed-PuG" secondAttribute="centerY" id="rUb-VL-bQI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uKJ-ed-PuG" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="SGh-29-oaU"/>
+                            <constraint firstItem="uKJ-ed-PuG" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="cSp-US-hRS"/>
+                            <constraint firstAttribute="trailing" secondItem="uKJ-ed-PuG" secondAttribute="trailing" id="sg2-RI-7uv"/>
+                            <constraint firstItem="uKJ-ed-PuG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="uWw-ja-Rvb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="simbolo_negativo" width="748" height="748"/>
+    </resources>
+</document>

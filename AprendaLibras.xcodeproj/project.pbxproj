@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116794D01D761C5300F9DEB2 /* torneio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 116794CF1D761C5300F9DEB2 /* torneio.mp4 */; };
+		11AD5D3A1D2C0D42000539F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD5D391D2C0D42000539F1 /* AppDelegate.swift */; };
+		11AD5D3C1D2C0D42000539F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD5D3B1D2C0D42000539F1 /* ViewController.swift */; };
+		11AD5D3F1D2C0D42000539F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11AD5D3D1D2C0D42000539F1 /* Main.storyboard */; };
+		11AD5D411D2C0D42000539F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11AD5D401D2C0D42000539F1 /* Assets.xcassets */; };
+		11AD5D441D2C0D42000539F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11AD5D421D2C0D42000539F1 /* LaunchScreen.storyboard */; };
+		11AD5D4C1D2C1BE5000539F1 /* ALModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD5D4B1D2C1BE5000539F1 /* ALModel.swift */; };
+		11AD5D4E1D2C1F45000539F1 /* ExtraFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD5D4D1D2C1F45000539F1 /* ExtraFunctions.swift */; };
+		11B5B3501D526D38002FC25A /* olhar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B5B34F1D526D38002FC25A /* olhar.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		116794CF1D761C5300F9DEB2 /* torneio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = torneio.mp4; sourceTree = "<group>"; };
+		11AD5D391D2C0D42000539F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11AD5D3B1D2C0D42000539F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11AD5D3E1D2C0D42000539F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11AD5D401D2C0D42000539F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11AD5D431D2C0D42000539F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11AD5D451D2C0D42000539F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11AD5D4B1D2C1BE5000539F1 /* ALModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALModel.swift; sourceTree = "<group>"; };
+		11AD5D4D1D2C1F45000539F1 /* ExtraFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraFunctions.swift; sourceTree = "<group>"; };
+		11B5B34F1D526D38002FC25A /* olhar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = olhar.mp4; path = ../olhar.mp4; sourceTree = "<group>"; };
+		456C8F071DA154EF00D9C1BE /* AprendaLibras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendaLibras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11AD5D331D2C0D41000539F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11AD5D2D1D2C0D41000539F1 = {
+			isa = PBXGroup;
+			children = (
+				11AD5D381D2C0D42000539F1 /* AprendaLibras */,
+				456C8F071DA154EF00D9C1BE /* AprendaLibras.app */,
+			);
+			sourceTree = "<group>";
+		};
+		11AD5D381D2C0D42000539F1 /* AprendaLibras */ = {
+			isa = PBXGroup;
+			children = (
+				11AD5D391D2C0D42000539F1 /* AppDelegate.swift */,
+				11AD5D3B1D2C0D42000539F1 /* ViewController.swift */,
+				11AD5D3D1D2C0D42000539F1 /* Main.storyboard */,
+				11AD5D401D2C0D42000539F1 /* Assets.xcassets */,
+				11AD5D421D2C0D42000539F1 /* LaunchScreen.storyboard */,
+				11AD5D451D2C0D42000539F1 /* Info.plist */,
+				11AD5D4F1D2C1F4E000539F1 /* Supporting Files */,
+			);
+			path = AprendaLibras;
+			sourceTree = "<group>";
+		};
+		11AD5D4F1D2C1F4E000539F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11AD5D4B1D2C1BE5000539F1 /* ALModel.swift */,
+				11AD5D4D1D2C1F45000539F1 /* ExtraFunctions.swift */,
+				11B5B34F1D526D38002FC25A /* olhar.mp4 */,
+				116794CF1D761C5300F9DEB2 /* torneio.mp4 */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11AD5D351D2C0D41000539F1 /* AprendaLibras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11AD5D481D2C0D42000539F1 /* Build configuration list for PBXNativeTarget "AprendaLibras" */;
+			buildPhases = (
+				11AD5D321D2C0D41000539F1 /* Sources */,
+				11AD5D331D2C0D41000539F1 /* Frameworks */,
+				11AD5D341D2C0D41000539F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AprendaLibras;
+			productName = AprendaLibras;
+			productReference = 456C8F071DA154EF00D9C1BE /* AprendaLibras.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11AD5D2E1D2C0D41000539F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Poli-Libras";
+				TargetAttributes = {
+					11AD5D351D2C0D41000539F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U2LK9G2LUC;
+					};
+				};
+			};
+			buildConfigurationList = 11AD5D311D2C0D41000539F1 /* Build configuration list for PBXProject "AprendaLibras" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11AD5D2D1D2C0D41000539F1;
+			productRefGroup = 11AD5D2D1D2C0D41000539F1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11AD5D351D2C0D41000539F1 /* AprendaLibras */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11AD5D341D2C0D41000539F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AD5D441D2C0D42000539F1 /* LaunchScreen.storyboard in Resources */,
+				11AD5D411D2C0D42000539F1 /* Assets.xcassets in Resources */,
+				11B5B3501D526D38002FC25A /* olhar.mp4 in Resources */,
+				11AD5D3F1D2C0D42000539F1 /* Main.storyboard in Resources */,
+				116794D01D761C5300F9DEB2 /* torneio.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11AD5D321D2C0D41000539F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AD5D4E1D2C1F45000539F1 /* ExtraFunctions.swift in Sources */,
+				11AD5D3C1D2C0D42000539F1 /* ViewController.swift in Sources */,
+				11AD5D3A1D2C0D42000539F1 /* AppDelegate.swift in Sources */,
+				11AD5D4C1D2C1BE5000539F1 /* ALModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11AD5D3D1D2C0D42000539F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11AD5D3E1D2C0D42000539F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11AD5D421D2C0D42000539F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11AD5D431D2C0D42000539F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11AD5D461D2C0D42000539F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11AD5D471D2C0D42000539F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11AD5D491D2C0D42000539F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AprendaLibras/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Poli-Libras.AprendaLibras";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		11AD5D4A1D2C0D42000539F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AprendaLibras/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Poli-Libras.AprendaLibras";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11AD5D311D2C0D41000539F1 /* Build configuration list for PBXProject "AprendaLibras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AD5D461D2C0D42000539F1 /* Debug */,
+				11AD5D471D2C0D42000539F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11AD5D481D2C0D42000539F1 /* Build configuration list for PBXNativeTarget "AprendaLibras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AD5D491D2C0D42000539F1 /* Debug */,
+				11AD5D4A1D2C0D42000539F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11AD5D2E1D2C0D41000539F1 /* Project object */;
+}
